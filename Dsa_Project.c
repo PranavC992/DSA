@@ -20,7 +20,7 @@ typedef struct record {
 // Get Records
 record*GreatLink() {
 	record*h, *tail, *p;
-	h=tail=(record*)malloc(sizeof(record));
+	h=tail=(record*)malloc(sizeof(record))
 	h->next = NULL;
 	
     int n = 0;
